@@ -1,0 +1,1 @@
+document.getElementById('copy')?.addEventListener('click',async function(){try{await navigator.clipboard.writeText('SUMMITESPORTS');this.textContent='COPIED ✓';setTimeout(()=>this.textContent='COPY ↗',2000)}catch(e){this.textContent='SELECT CODE';}});
